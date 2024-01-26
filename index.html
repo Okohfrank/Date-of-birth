@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+  <div class="container">
+    <h1 style="text-align: center;">DOB calculator</h1>
+    <div class="inputs">
+      
+      <div class="input-date">
+      <p class="label">Date</p>
+        <input type="number" class="date reset" id="date" placeholder="dd">
+      </div>
+      <div class="input-month">
+        <p class="label">Month</p>
+        <input type="number" class="month reset" id="month" placeholder
+        ="mm">
+      </div>
+      <div class="input-year">
+        <p class="label">Year</p>
+        <input type="number" class="year reset" id="year" placeholder="yyyy">
+      </div>
+      
+    </div>
+    <div class="submits">
+      <div>
+        <button class="button" onclick="
+          calc();
+          ">Calculate
+        </button>
+      </div>
+      <div>
+        <button class="button resets" style="background-color: red;">
+            Reset
+        </button>
+      </div>
+    </div>
+    <p id="output"></p>
+  </div>
+
+  <script src="script.js">
+    
+  </script>
+
+</body>
+
+</html>
